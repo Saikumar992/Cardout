@@ -27,5 +27,6 @@
 <body>
 
 <p>Vachindeee</p>
+<vloc-layout layout-name="billing-poc-container-layout"><vloc-layout>
 </body>
 </html>
