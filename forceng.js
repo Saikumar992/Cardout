@@ -9,7 +9,7 @@ angular.module('forceng', [])
 
     // The login URL for the OAuth process
     // To override default, pass loginURL in init(props)
-    var loginURL = 'https://telstra-retail--b2cdev06.cs116.my.salesforce.com/',
+    var loginURL = 'https://telstra-retail--b2cdev06.cs116.my.salesforce.com',
 
     // The Connected App client Id. Default app id provided - Not for production use.
     // This application supports http://localhost:8200/oauthcallback.html as a valid callback URL
