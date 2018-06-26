@@ -15,7 +15,8 @@
 			   //$scope.showCards = true;
                 
                 force.init({
-                    proxyURL: 'https://omniproxy.herokuapp.com'
+                    proxyURL: 'https://omniproxy.herokuapp.com',
+					accessToken:'13YubDeXEdbLpg6aQZx717jXH'
                 });
                 force.login().then(function (oauth) {
                     debugger;
