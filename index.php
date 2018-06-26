@@ -16,13 +16,13 @@
                 
                 force.init({
                     proxyURL: 'https://omniproxy.herokuapp.com',
-					accessToken:'13YubDeXEdbLpg6aQZx717jXH'
+					//accessToken:'13YubDeXEdbLpg6aQZx717jXH'
                 });
                 force.login().then(function (oauth) {
                     debugger;
                     console.log("force login"); 
                     //$scope.showLink = true; 
-					$scope.showCards = true; 
+					$rootScope.showCards = true; 
 					
                 });
             });
