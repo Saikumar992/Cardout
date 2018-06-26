@@ -23,7 +23,7 @@
                     console.log("force login"); 
                     //$scope.showLink = true; 
 					//$scope.showCards = true; 
-					<vloc-layout layout-name="billing-service-card"><vloc-layout>
+					<vloc-layout layout-name="billing-service-card"></vloc-layout>
                 });
             });
     
