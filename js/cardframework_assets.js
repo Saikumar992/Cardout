@@ -780,7 +780,7 @@ if (forcetk.Client === undefined) {
     forcetk.Client = function (clientId, loginUrl, proxyUrl, communityInd) {
         'use strict';
         this.clientId = clientId;
-        this.loginUrl = loginUrl || 'https://login.salesforce.com/';
+        this.loginUrl = loginUrl || 'https://telstra-retail--b2cdev06.cs116.my.salesforce.com/';
         if (proxyUrl === undefined || proxyUrl === null) {
             if (location.protocol === 'file:' || location.protocol === 'ms-appx:') {
                 // In PhoneGap
