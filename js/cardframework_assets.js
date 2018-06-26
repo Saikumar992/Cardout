@@ -73,7 +73,7 @@ angular.module('forceng', [])
 
     // The force.com API version to use.
     // To override default, pass apiVersion in init(props)
-      apiVersion = 'v39.0',
+      apiVersion = 'v33.0',
 
     // Keep track of OAuth data (access_token, refresh_token, and instance_url)
       oauth,
@@ -96,7 +96,8 @@ angular.module('forceng', [])
 
     // if page URL is http://localhost:3000/myapp/index.html, oauthCallbackURL is http://localhost:3000/myapp/oauthcallback.html
     // To override default, pass oauthCallbackURL in init(props)
-      oauthCallbackURL = baseURL + '/oauthcallback.html',
+     // oauthCallbackURL = baseURL + '/oauthcallback.html',
+	 oauthCallbackURL = 'http://localhost:8200/oauthcallback.html',
 
     // Because the OAuth login spans multiple processes, we need to keep the login success and error handlers as a variables
     // inside the module instead of keeping them local within the login function.
