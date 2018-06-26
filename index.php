@@ -12,7 +12,7 @@
         angular.module('miniApp', ["forceng", 'vlocity', 'CardFramework'])
             .controller('ContactListCtrl', function ($scope, force, $location) { 
                // $scope.showLink = false;
-			   $scope.showCards = false;
+			   $scope.showCards = true;
                 
                 force.init({
                     proxyURL: 'https://omniproxy.herokuapp.com'
