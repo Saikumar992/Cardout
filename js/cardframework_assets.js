@@ -69,7 +69,8 @@ angular.module('forceng', [])
     // The Connected App client Id. Default app id provided - Not for production use.
     // This application supports http://localhost:8200/oauthcallback.html as a valid callback URL
     // To override default, pass appId in init(props)
-      appId = '3MVG9fMtCkV6eLheIEZplMqWfnGlf3Y.BcWdOf1qytXo9zxgbsrUbS.ExHTgUPJeb3jZeT8NYhc.hMyznKU92',
+     // appId = '3MVG9fMtCkV6eLheIEZplMqWfnGlf3Y.BcWdOf1qytXo9zxgbsrUbS.ExHTgUPJeb3jZeT8NYhc.hMyznKU92',
+	 appId = '3MVG9mQWF42jKQUq0IfcVKO0HvMGbBCzO_o_iwXW_naTmCxMF_5JpNcDFVQWAJXw3vLsWccKsTEgK1pmzp.DL',
 
     // The force.com API version to use.
     // To override default, pass apiVersion in init(props)
