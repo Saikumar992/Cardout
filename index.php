@@ -8,7 +8,7 @@
 <script type="text/javascript" src="js/cardframework.js"></script>
 <script type="text/javascript" src="js/angular_strap_bundle_1_6.js"></script>
 <script>
-        angular.module('miniApp', ["forceng", 'vlocity', 'cardframework'])
+        angular.module('miniApp', ["forceng", 'vlocity', 'CardFramework'])
             .controller('ContactListCtrl', function ($scope, force, $location) { 
                // $scope.showLink = false;
 			   $scope.showCards = false;
@@ -25,9 +25,18 @@
             });
     
     </script> 
-<body>
-
-<p>Vachindeeeeeeeee</p>
-<vloc-layout layout-name="billing-poc-container-layout"><vloc-layout>
+	<style>
+        .test-container {margin:30px;font-size:30px;}
+    </style> 
+<body ng-app="miniApp">
+<div ng-controller="ContactListCtrl" class='vlocity via-slds' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+			<div class='test-container'>
+							<b>Try out Vlocity process library</b>
+							<div ng-if='showCards'>
+									<p>Vachindeeeeeeeee</p>
+									<vloc-layout layout-name="billing-poc-container-layout"><vloc-layout>
+							</div>
+						</div>
+</div>
 </body>
 </html>
