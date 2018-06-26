@@ -8,7 +8,7 @@
 <script type="text/javascript" src="js/cardframework.js"></script>
 <script type="text/javascript" src="js/angular_strap_bundle_1_6.js"></script>
 <script>
-        angular.module('miniApp', ["forceng", 'vlocity', 'CardFramework'])
+        angular.module('miniApp', ["forceng", 'vlocity', 'cardframework'])
             .controller('ContactListCtrl', function ($scope, force, $location) { 
                // $scope.showLink = false;
 			   $scope.showCards = false;
