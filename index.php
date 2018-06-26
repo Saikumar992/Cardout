@@ -12,7 +12,7 @@
         angular.module('miniApp', ["forceng", 'vlocity', 'CardFramework'])
             .controller('ContactListCtrl', function ($scope, force, $location) { 
                // $scope.showLink = false;
-			   $scope.showCards = true;
+			   //$scope.showCards = true;
                 
                 force.init({
                     proxyURL: 'https://omniproxy.herokuapp.com'
@@ -21,7 +21,8 @@
                     debugger;
                     console.log("force login"); 
                     //$scope.showLink = true; 
-					$scope.showCards = true; 
+					//$scope.showCards = true; 
+					<vloc-layout layout-name="billing-service-card"><vloc-layout>
                 });
             });
     
@@ -35,7 +36,7 @@
 							<b>Try out Vlocity process library</b>
 							<div ng-if='showCards'>
 									<!--<p>Vachindeeeeeeeee</p>-->
-									<vloc-layout layout-name="billing-service-card"><vloc-layout>
+									
 							</div>
 						</div>
 </div>
