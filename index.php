@@ -3,9 +3,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
 	<script type="text/javascript" src="js/vlocity_core_assets.js"></script>
-<script type="text/javascript" src="js/cardframework_assets.js"></script>
+<script type="text/javascript" src="js/CardFramework_Assets.js"></script>
 <script type="text/javascript" src="js/SldsAngular.js"></script>
-<script type="text/javascript" src="js/cardframework.js"></script>
+<script type="text/javascript" src="js/CardFramework.js"></script>
+<script type="text/javascript" src="js/angular_strap_bundle_1_6.js"></script>
 <script>
         angular.module('miniApp', ["forceng", 'vlocity', 'CardFramework'])
             .controller('ContactListCtrl', function ($scope, force, $location) { 
