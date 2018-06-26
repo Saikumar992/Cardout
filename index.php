@@ -34,7 +34,7 @@
 			<div class='test-container'>
 							<b>Try out Vlocity process library</b>
 							<div ng-if='showCards'>
-									<p>Vachindeeeeeeeee</p>
+									<!--<p>Vachindeeeeeeeee</p>-->
 									<vloc-layout layout-name="billing-service-card"><vloc-layout>
 							</div>
 						</div>
