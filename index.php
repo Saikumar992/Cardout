@@ -22,7 +22,7 @@
                     debugger;
                     console.log("force login"); 
                     //$scope.showLink = true; 
-					$rootScope.showCards = true; 
+					$scope.showCards = true; 
 					
                 });
             });
